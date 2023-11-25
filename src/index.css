@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background: #252525;
+  color: white;
+}
+
+.container {
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.nav {
+  width: 100%;
+  height: 70px;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav img {
+  width: 50px;
+  height: 70px;
+}
+.text {
+  display: flex;
+  gap: 50px;
+}
+
+.ota {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px;
+}
+
+.ota img {
+  width: 80px;
+  height: 250vh;
+}
+
+.ota p {
+  font-size: 18px;
+}
+
+.abdulloh {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.o1,
+.o2,
+.o3,
+.o4 {
+  text-align: center;
+}
+
+.kichik img {
+  padding: 0 200px;
+  width: 100%;
+  height: 40vh;
+}
+
+.alohida img {
+  width: 100%;
+  height: 40vh;
+  padding: 20px 200px;
+}
+
+.fury {
+  text-align: center;
+  color: greenyellow;
+}
+
+.toxa {
+  color: white;
+  text-align: center;
+}
+
+.abdulloh p {
+  color: #777777;
+}
+
+.ilya {
+  padding: 30px 200px;
+}
+
+.jony {
+  width: 80px;
+  height: 60vh;
+}
+
+.category {
+  font-family: 'Razer F5 Bold';
+  font-size: 35px;
+  margin: 30px 0;
+  border-bottom: 3px solid #44d62c;
+}
+.mice-parent {
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.mice-children {
+  margin: 40px 0;
+  background: #1b1b1b;
+  height: max-content;
+}
+.mice-children img {
+  background: #111;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mice-body {
+  padding: 10px;
+}
+
+.mice-body h3 {
+  min-height: 67px;
+}
+
+.mice-body p {
+  min-height: 55px;
+}
+
+.mice-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.mice-footer button {
+  background: #44d62c;
+  border: none;
+  border-radius: 6px;
+  width: 60px;
+  height: 25px;
+  color: #000;
+  font-family: 'Razer F5 Bold';
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.mice-footer button:hover {
+  width: 70px;
+  font-size: 17px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-evenly;
+}
+.item {
+  cursor: pointer;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.item img {
+  height: 80px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.jony {
+  width: 70px;
+  height: 70px;
+}
+
+footer {
+  display: flex;
+  gap: 60px;
+}
+
+.tak {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+}
